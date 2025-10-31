@@ -3,7 +3,7 @@
 :root{
     --bg-white:#fff;
     --bg-black-icon:#222222;
-    --text1:red;
+    --text1:#F87B1B;
     --text2:#302e4d;
     --text3:#504e70;
     --text4:white;
@@ -370,7 +370,13 @@ button a{
     }
 /* 3 */
     .skills {
-      width: 300px;
+      width: 500px;
+  
+    }
+    .skill{
+      width: 500px;
+      margin: 0 0;
+
     }
 
     .skill-item {
@@ -383,7 +389,7 @@ button a{
       align-items: center;
       font-size: 15px;
       font-weight: 600;
-      margin-bottom: 8px;
+      margin-bottom: 10px;
       color: var(--text3);
     }
 
@@ -408,26 +414,26 @@ button a{
       
     }
 
-    .skills-image {
+    /* .skills-image {
       flex: 1;
       display: flex;
       justify-content: center;
       align-items: center;
       transition: 2s ease-out;
-    }
-    .skills-container:hover .skills-imag img{
+    } */
+    /* .skills-container:hover .skills-imag img{
       transform: scale(1.1);
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5); 
       border-radius: 15px;
       cursor: pointer;
-     }
+     } */
 
-    .skills-image img {
+    /* .skills-image img {
       width: 100%;
       max-width: 380px;
       object-fit: cover;
       overflow: hidden;
-    }
+    } */
 
  
    @media (max-width: 768px) {
@@ -657,8 +663,8 @@ h2.section-tittle::before{
     }
 
     .contact-container:hover {
-      transform: translateY(-5px);
-     box-shadow: 0 10px 25px rgba(255, 0,51, 0.3);
+     transform: translateY(-5px);
+     box-shadow: 0 10px 25px rgba(201, 2, 42, 0.3);
     }
 
     .contact-container h2 {
@@ -686,7 +692,7 @@ h2.section-tittle::before{
       border: none;
       outline: none;
       border-radius: 10px;
-      background: rgba(216, 129, 196, 0.322);
+      background: rgba(196, 102, 113, 0.708);
       color:var(--text1);
       font-size: 14px;
       transition: 0.3s;
@@ -700,7 +706,7 @@ h2.section-tittle::before{
     input:focus,
     textarea:focus {
       background: rgba(255, 255, 255, 0.418);
-      box-shadow: 0 0 5px #c31a99;
+      box-shadow: 0 0 7px #c90223;
     }
 
     .send-btn {
@@ -716,9 +722,9 @@ h2.section-tittle::before{
     }
 
     .send-btn:hover {
-      background: linear-gradient(135deg, #47053cf7, #420434cd);
+      background: linear-gradient(135deg, #ee0115f7, #d7063acd);
       transform: scale(1.05);
-      box-shadow: 0 0 10px rgba(220, 7, 142, 0.3);
+      box-shadow: 0 0 10px rgba(143, 24, 38, 0.3);
     }
 
    
