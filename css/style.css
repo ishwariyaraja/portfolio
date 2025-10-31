@@ -553,6 +553,13 @@ h2.section-tittle::before{
   text-align: justify;
   padding: 10px 0 0 0;
 }
+.proj-1 a{
+  text-decoration: none;
+}
+.proj-1:focus{
+  color: var(--text1);
+  cursor: pointer;
+}
 
 /* footer*/
 
