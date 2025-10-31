@@ -3,7 +3,7 @@
 :root{
     --bg-white:#fff;
     --bg-black-icon:#222222;
-    --text1:#f021b2;
+    --text1:red;
     --text2:#302e4d;
     --text3:#504e70;
     --text4:white;
@@ -56,10 +56,10 @@
         color: #302e4d;
       }
       25%{
-        color:#c31a99 ;
+        color:red ;
       }
       50%{
-        color: #310728
+        color: #5e0c15
       }
       100%{
         color:var(--text2);
@@ -115,7 +115,7 @@
     .nav li a:hover {
       color:var(--text1);
       transform: translatex(-10px);
-      border-bottom: 1px solid #c90cb6;
+      border-bottom: 1px solid red;
     }
 
     .nav li a.active i,
@@ -138,7 +138,7 @@
       content: "";
       height: 3px;
       width: 100%;
-      background: #1e1e3f;
+      background: var(--text1);
       transition: all 0.3s ease;
       left: 0;
     }
@@ -266,8 +266,8 @@ button:hover{
     position: absolute;
     height: 80px;
     width: 80px;
-    border-bottom:10px solid #f021b2;
-    border-right: 10px solid #f021b2;
+    border-bottom:10px solid var(--text1);
+    border-right: 10px solid var(--text1);
     right: 40px;
     bottom: -20px;
 }
@@ -285,8 +285,8 @@ button:hover{
     position: absolute;
     height: 80px;
     width: 80px;
-    border-top: 10px solid  #f021b2;
-    border-left: 10px solid  #f021b2;
+    border-top: 10px solid  var(--text1);
+    border-left: 10px solid  var(--text1);
     left: 30px;
     top: -30px;
 }
@@ -472,7 +472,7 @@ button a{
  }
  .sec:hover{
   cursor: pointer; 
-  box-shadow: inset 0px 0px 25px #cb189e ;
+  box-shadow: inset 0px 0px 25px #bf0b0b ;
 
  }
  .sec P{
